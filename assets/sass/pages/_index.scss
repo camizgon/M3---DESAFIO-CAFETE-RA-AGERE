@@ -1,0 +1,35 @@
+.main-container-box{
+    position: absolute;
+    left: 40%;
+    top: 60%;
+    width: 30%;
+    height: 20%;
+    background-color: $color-white;
+}
+
+.main-container-box-date{
+    display: inline-block;
+    position: relative;
+    left: 2rem;
+    top: 2rem;
+}
+
+i{
+    position: absolute;
+    bottom: 20%;
+    right: 30%;
+}
+
+
+.main-container-icon{
+    position: absolute;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    top: 57%;
+    left: 67%;
+    font-size: 60px;
+    color: $color-white;
+    background-color: $color-flame;
+}
+

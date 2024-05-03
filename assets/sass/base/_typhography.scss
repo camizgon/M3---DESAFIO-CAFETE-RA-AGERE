@@ -1,15 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
-body{
-    font-family: "Gugi", sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=PT+Mono&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  font-family: "PT Mono", monospace;
 }
 
-nav{
-    font-family: "Gugi", sans-serif;
+nav {
+  font-family: "PT Mono", monospace;
 }
 
-.navbar__text{
-    font-size: 1.3rem;
-    text-decoration: none;
-    margin-left: 10px;
+.navbar__text {
+  font-size: 20px;
+  text-decoration: none;
+  margin: 10px;
+  color: $color-Spanishgray;
+}
+
+.navbar-container-button {
+  font-family: "PT Mono", monospace;
+  font-size: 20px;
+  color: $color-Spanishgray;
+}
+
+.navbar-container-button--green {
+    font-family: "PT Mono", monospace;
+  font-size: 20px;
+}
+
+.main-container-box-date__title {
+  font-size: 60px;
+  font-weight: 100;
+  margin-top: 35px;
+  margin-left: 10px;
+  margin-right: 40px;
+}
+
+.main-container-box-date__paragraph {
+  font-size: 15px;
+  text-shadow: none;
+  color: $color-Outerspacy;
+  margin-left: 25px;
+}
+
+.main-container-box-text {
+  position: absolute;
+  top: 200px;
+  right: 420px;
+  display: inline-block;
+  width: 200px;
+  font-size: 60px;
+  
+}
+
+.main-container-box-text__paragraph {
+  font-size: 25px;
+  color: $color-Spanishgray;
 }

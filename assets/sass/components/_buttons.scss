@@ -1,6 +1,14 @@
-.navbar-button{
-    background-color: aqua;
-    position: absolute;
-   
-   
+.navbar-container-button {
+  margin-left: 1020px;
+  background-color: white;
+  padding: 11px;
+  border: solid 1px $color-Spanishgray;
+}
+
+.navbar-container-button--green {
+  margin-left: 100px;
+  padding: 11px;
+  border: solid 1px $color-Spanishgray;
+  background-color: $color-shinyshamrock;
+  color: $color-white;
 }
