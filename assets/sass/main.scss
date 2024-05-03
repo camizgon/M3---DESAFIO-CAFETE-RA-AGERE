@@ -1,0 +1,17 @@
+/* MODELO DEMANIFIESTO main.scss */
+
+//abstract
+@import "abstract/variables";
+//vendors
+//base
+@import "base/reset";
+@import "base/images";
+@import "base/typhography";
+//layout
+@import "layout/main";
+//components
+@import "components/nav";
+@import "components/buttons";
+//pages
+@import "pages/index";
+//themes

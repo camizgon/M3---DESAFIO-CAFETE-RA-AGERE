@@ -1,0 +1,43 @@
+/* MODELO DEMANIFIESTO main.scss */
+@import url("https://fonts.googleapis.com/css2?family=Gugi&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 45px;
+  margin-top: 1rem;
+  margin-left: 10rem;
+  margin-right: 4rem;
+  background-color: blue;
+}
+
+body {
+  font-family: "Gugi", sans-serif;
+}
+
+nav {
+  font-family: "Gugi", sans-serif;
+}
+
+.navbar__text {
+  font-size: 1.3rem;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.navbar {
+  width: 1282px;
+  right: 25px;
+  display: inline-block;
+  background-color: red;
+}
+
+.navbar-button {
+  background-color: aqua;
+  position: absolute;
+}
+
+/*# sourceMappingURL=style.css.map */
