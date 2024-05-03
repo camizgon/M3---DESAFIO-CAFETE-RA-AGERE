@@ -24,7 +24,7 @@ nav {
 }
 
 .navbar-container-button--green {
-    font-family: "PT Mono", monospace;
+  font-family: "PT Mono", monospace;
   font-size: 20px;
 }
 
@@ -50,10 +50,29 @@ nav {
   display: inline-block;
   width: 200px;
   font-size: 60px;
-  
 }
 
 .main-container-box-text__paragraph {
   font-size: 25px;
   color: $color-Spanishgray;
+}
+
+.section-container-text {
+  position: absolute;
+  top: 85%;
+  left: 5%;
+  width: 20%;
+  height: 40%;
+}
+
+.section-container-text__title {
+  font-size: 35px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.section-container-text__paragraph{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    text-align: justify;
 }

@@ -9,3 +9,33 @@
   width: 67%;
 }
 
+.section-container-box-image{
+  position: absolute;
+  top: 83%;
+  left: 30%;
+  z-index: -1;
+  box-shadow: inset;
+  background-color:$color-blueFrance;
+}
+
+.section-container-box-image--img{
+  width: 60%;
+  z-index: 2 ;
+}
+
+.div-images--img{
+  width: 23%;
+  height: 27%;
+  position: absolute;
+  top: 80%;
+  left: 60%;
+}
+
+.div-images__img{
+  width: 10%;
+  position: absolute;
+  top: 85%;
+  left: 53%;
+  transform: rotate(89deg);
+}
+

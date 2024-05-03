@@ -12,3 +12,13 @@
   background-color: $color-shinyshamrock;
   color: $color-white;
 }
+
+.navbar-container-button:hover {
+  color: $color-quicksilver;
+  text-decoration: underline;
+}
+
+.navbar-container-button--green:hover {
+  color: $color-quicksilver;
+  text-decoration: underline;
+}
